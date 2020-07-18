@@ -1,0 +1,57 @@
+.navbar{
+    background-color: black;
+    color: white;
+    
+}
+.nav-link{
+margin: 0 15px;
+    color: white;
+}
+.nav-link:hover{
+color: orange;}
+
+.logo{
+    margin-right: 0;
+    padding: 20px;
+width: 100%;
+   
+}
+.logo-img{
+    margin-left: 80%;
+}
+.logo h1{
+     
+    color: black;
+font-size: 50px;
+margin-top: 50px;
+    font-family: 'Lobster', cursive;
+}
+@media (max-width: 990px){
+    .logo{
+     text-align: center; 
+        padding: 30px;
+        }
+    .logo-img{
+         margin-left: 0%;
+    }
+    .logo h1{
+margin: 10px 0 0 0;
+    font-size: 38px;
+    font-family: 'Lobster', cursive;}
+}
+.footer{
+background-color: black;
+color: white;
+padding: 50px;
+}
+.c{
+float: right;;}
+@media (max-width: 990px){
+    .footer{
+text-align: center;
+    }
+    .c{
+        
+        float: none;
+    }
+}

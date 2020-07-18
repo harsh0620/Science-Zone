@@ -1,0 +1,149 @@
+.navbar {
+  background-color: black;
+  color: white;
+}
+.nav-link {
+  margin: 0 15px;
+  color: white;
+}
+.nav-link:hover {
+  color: orange;
+}
+
+.logo {
+  margin-right: 0;
+  padding: 20px;
+  width: 100%;
+}
+.logo-img {
+  margin-left: 80%;
+}
+.logo h1 {
+  color: black;
+  font-size: 50px;
+  margin-top: 50px;
+  font-family: "Lobster", cursive;
+}
+@media (max-width: 990px) {
+  .logo {
+    text-align: center;
+    padding: 30px;
+  }
+  .logo-img {
+    margin-left: 0%;
+  }
+  .logo h1 {
+    margin: 10px 0 0 0;
+    font-size: 38px;
+    font-family: "Lobster", cursive;
+  }
+}
+
+.classrooms {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.about {
+  background-color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+  color: white;
+}
+.about-matter {
+  position: relative;
+}
+.img {
+  margin: 20px 0 20px 15%;
+  width: 600px;
+  height: 900px;
+}
+.matter {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-60%, -30%);
+  font-size: 25px;
+}
+@media (max-width: 700px) {
+  .img {
+    width: 400px;
+    height: 1280px;
+    margin-left: 0px;
+  }
+  .matter {
+    position: absolute;
+    top: 23%;
+    left: 35%;
+    transform: translate(-35%, -23%);
+    font-size: 22px;
+    padding: 8px 0 0 10px;
+    color: white;
+  }
+}
+
+.missions {
+  background-color: darkgray;
+  text-align: center;
+  margin: 20px 0 20px 80px;
+  border-radius: 30px;
+  width: 90%;
+}
+.mis {
+  width: 550px;
+  height: 300px;
+}
+
+.missions .col-lg-6 {
+  padding: 30px;
+}
+
+@media (max-width: 700px) {
+  .mis {
+    width: 300px;
+    height: 300px;
+  }
+}
+.high {
+  background-color: pink;
+  padding: 40px;
+}
+.high h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.lectures {
+  text-align: center;
+  padding: 30px;
+}
+.rank {
+  text-align: center;
+  padding: 30px;
+}
+.students {
+  text-align: center;
+  padding: 20px;
+}
+
+.m {
+  padding: 30px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+.c {
+  float: right;
+}
+@media (max-width: 990px) {
+  .footer {
+    text-align: center;
+  }
+  .c {
+    float: none;
+  }
+}
